@@ -1,0 +1,136 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+#  Usually these files are written by a python script from a temporary
+#  directory before injection.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# ceph-ceph
+*.crf
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+env.bak/
+virtualenv/
+
+# Spyder project settings
+.spyderproject
+.spyderproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy_check
+.dmypy_output
+
+# Pyright
+pyrightconfig.json
+
+# User-specific files
+.DS_Store
+Thumbs.db
+
+# Jupyter Lab/LSP
+.jupyterlab
+
+# Data and model files (if any) - adjust as needed
+# We do not ignore the dataset or notebook as they are required for reproducibility
+# However, we might ignore large model files if we saved them, but we don't save models in this project.
+# So we keep the CSV files and notebook.
+
+# Local secrets (if any)
+.env
+*.env
+
+# Logs
+*.log
+# Datasets (large, obtain from Kaggle)
+*.csv
+
+# Claude Code settings
+.claude/
